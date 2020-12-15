@@ -6,12 +6,14 @@ export default function Home() {
   return (
     <div className='card-bodys'>
       <div>
-        <Link href='/about'>about</Link>
+        <Link href='/about'>
+          <a>About</a>
+        </Link>
       </div>
 
-      <div>
-        <Link href='/contact'>contact</Link>
-      </div>
+      <Link href='/contact'>
+        <a>contact</a>
+      </Link>
     </div>
   )
 }

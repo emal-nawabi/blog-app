@@ -2,13 +2,16 @@
   "name": "blog-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://emal-nawabi.github.io/blog-app/",
   "scripts": {
+    "deploy": "gh-pages -d out",
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start"
   },
   "dependencies": {
     "autoprefixer": "^10.1.0",
+    "gh-pages": "^3.1.0",
     "next": "10.0.3",
     "postcss": "^8.2.1",
     "react": "17.0.1",
