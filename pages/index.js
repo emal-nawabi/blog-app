@@ -4,7 +4,11 @@ import Router from 'next/router'
 
 export default function Home() {
   return (
-    <div>
+    <div className='container'>
+      <Head>
+        <link rel='icon' href='/favicon.ico' />
+        <title>My Blog App</title>
+      </Head>
       <div>
         <Link href='/about'>
           <a className='hover:text-red-700'>About</a>
