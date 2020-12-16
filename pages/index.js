@@ -9,9 +9,12 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
         <title>My Blog App</title>
       </Head>
+      <h1 className='text-5xl text-center text-gray-700 dark:text-gray-100'>
+        Next.js + Tailwind CSS 2.0
+      </h1>
       <div>
         <Link href='/about'>
-          <a className='hover:text-red-700'>About</a>
+          <a className='hover:text-red-700 bg-gray-400'>About</a>
         </Link>
       </div>
 
