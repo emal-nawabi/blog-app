@@ -4,15 +4,15 @@ import Router from 'next/router'
 
 export default function Home() {
   return (
-    <div className='card-bodys'>
+    <div>
       <div>
         <Link href='/about'>
-          <a>About</a>
+          <a className='hover:text-red-700'>About</a>
         </Link>
       </div>
 
       <Link href='/contact'>
-        <a>contact</a>
+        <a className='hover:text-red-700'>contact</a>
       </Link>
     </div>
   )
